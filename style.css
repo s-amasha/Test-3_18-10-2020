@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+a {
+    font-size: large;
+    color: #222222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f6b60b;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: large;
+}
+
+li {
+    list-style: none;
+}
+
+.mainMenu {
+    direction: ltr;
+    background: white;
+    height: 57px;
+    width: -webkit-fill-available;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-box-shadow: inset 3px -6px 3px -5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 3px -6px 3px -5px rgba(0, 0, 0, 1);
+    box-shadow: inset 3px -6px 3px -5px rgba(0, 0, 0, 1);
+}
+
+.button {
+    display: flex;
+    margin-left: 18px;
+    margin-top: 9px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.slid {
+    padding-top: 200px;
+    min-height: 650px;
+    background-image: url("slider-1.jpg");
+    background-color: black;
+}
+
+.welcome {
+    color: #f6b60b;
+    font-size: 40px;
+}
+
+.tite1 {
+    color: white;
+    font-size: 40px;
+}
+
+.tite2 {
+    color: white;
+    direction: rtl;
+}
+
+.icons {
+    display: flex;
+    background: #f5f5f5;
+    justify-content: space-evenly;
+    direction: rtl;
+    padding-top: 20px;
+    margin-top: -20px;
+}
+
+.ico {
+    margin-right: 32px;
+    color: #f6b60b;
+    font-size: xx-large;
+}
+
+.ico3 {
+    margin-right: 41px;
+    color: #f6b60b;
+    font-size: xx-large;
+}
+
+.ico1 {
+    margin-right: 48px;
+    color: #f6b60b;
+    font-size: xx-large;
+}
+
+.ico2 {
+    margin-right: 67px;
+    color: #f6b60b;
+    font-size: xx-large;
+}
+
+.aboutUs {
+    width: auto;
+    -webkit-box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
+    box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
+}
+
+.aboutUsTite {
+    margin-top: -1px;
+    color: #222222;
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+
+.lineOrange {
+    margin-top: 10px;
+    height: 6px;
+    width: 103px;
+    background: #f6b60b;
+    margin: auto;
+}
+
+.aboutUs-cd {
+    margin-right: 609px;
+    direction: rtl;
+    margin-left: 76px;
+    min-height: 460px;
+}
+
+.aboutUs-lineTite {
+    align-items: center;
+    color: #222222;
+}
+
+.lineBlack {
+    height: 4px;
+    width: 110px;
+    background: #222222;
+}
+
+.button-contactNow {
+    background: #f6b60b;
+    width: 150px;
+    height: 55px;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 55px;
+}
