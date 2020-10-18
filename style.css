@@ -21,6 +21,11 @@ a:hover {
     font-size: large;
 }
 
+i:hover {
+    color: #f6b60b;
+    font-size: 60px;
+}
+
 li {
     list-style: none;
 }
@@ -153,4 +158,45 @@ li {
     text-align: center;
     font-size: xx-large;
     margin-top: 55px;
+}
+
+.whatWeOffer {
+    min-height: 650px;
+    width: auto;
+    background: #f6b60b;
+    -webkit-box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
+    box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
+}
+
+.whiteLine {
+    margin-top: 10px;
+    height: 6px;
+    width: 103px;
+    background: white;
+    margin: auto;
+}
+
+.projects {
+    margin-top: 80px;
+    display: flex;
+    place-content: center;
+}
+
+.project {
+    background: #ffffff;
+    height: 362px;
+    margin: 10px;
+}
+
+.projectIcon {
+    width: 72px;
+    height: 72px;
+    background: black;
+    color: #ffffff;
+    font-size: xxx-large;
+    text-align: center;
+    margin-right: 141px;
+    position: absolute;
+    margin-block-start: -38px;
 }
