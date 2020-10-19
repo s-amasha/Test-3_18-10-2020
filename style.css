@@ -41,6 +41,7 @@ li {
     padding-right: 70px;
     padding-top: 5px;
     padding-bottom: 5px;
+    z-index: 99999999;
     -webkit-box-shadow: inset 3px -6px 3px -5px rgba(0, 0, 0, 1);
     -moz-box-shadow: inset 3px -6px 3px -5px rgba(0, 0, 0, 1);
     box-shadow: inset 3px -6px 3px -5px rgba(0, 0, 0, 1);
@@ -58,7 +59,7 @@ li {
 
 .slid {
     padding-top: 200px;
-    min-height: 650px;
+    height: 650px;
     background-image: url("slider-1.jpg");
     background-color: black;
 }
@@ -113,9 +114,6 @@ li {
 
 .aboutUs {
     width: auto;
-    -webkit-box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
-    -moz-box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
-    box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
 }
 
 .aboutUsTite {
@@ -164,9 +162,6 @@ li {
     min-height: 650px;
     width: auto;
     background: #f6b60b;
-    -webkit-box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
-    -moz-box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
-    box-shadow: inset 0px 5px 12px -4px rgba(0, 0, 0, 0.53);
 }
 
 .whiteLine {
@@ -199,4 +194,17 @@ li {
     margin-right: 141px;
     position: absolute;
     margin-block-start: -38px;
+}
+
+.contactUsTite {
+    margin-top: -1px;
+    color: #222222;
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+
+.lineOrange2 {
+    height: 8px;
+    width: 80px;
+    background: #f6b60b;
 }
